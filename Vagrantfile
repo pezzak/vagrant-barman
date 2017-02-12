@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "ubuntu1404/puppet"
+  config.vm.box = "pezzak/ubuntu1404-puppet"
 
   if Vagrant.has_plugin?("vagrant-cachier")
     config.cache.auto_detect = true
