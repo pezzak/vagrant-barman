@@ -1,0 +1,5 @@
+barman::server:
+  "pgsql-1":
+    conninfo: "user=postgres host=%{hiera('pgsql-1_ip')}"
+    ssh_command: "ssh postgres@%{hiera('pgsql-1_ip')}"
+

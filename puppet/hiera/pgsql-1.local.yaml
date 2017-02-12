@@ -1,0 +1,23 @@
+postgresql::server::config_entry:
+  wal_level:
+    value: 'hot_standby'
+  archive_mode:
+    value: 'on'
+  archive_command:
+    value: "rsync -a %p barman@%{hiera('barman_ip')}:/var/lib/barman/pgsql-1/incoming/%f"
+
+postgresql::server::pg_hba_rule:
+  "allow barman":
+    description: "allow barman"
+    type: 'hostssl'
+    database: "all"
+    user: "postgres"
+    address: "%{hiera('barman_ip')}/32"
+    auth_method: 'trust'
+    order: '001'
+
+postgresql::server::db:
+  test:
+    user: 'test'
+    password: 'test'
+    owner: 'test'

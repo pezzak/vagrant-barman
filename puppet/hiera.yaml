@@ -1,0 +1,12 @@
+---
+:backends:
+    - yaml
+
+:logger: console
+
+:hierarchy:
+    - "%{::fqdn}"
+    - "common"
+
+:yaml:
+  :datadir: /vagrant/puppet/hiera

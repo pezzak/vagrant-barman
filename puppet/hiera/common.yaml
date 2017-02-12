@@ -1,0 +1,9 @@
+pgsql-1_ip: 192.168.33.101
+barman_ip: 192.168.33.102
+
+postgresql::globals::version: '9.5'
+postgresql::globals::encoding: 'UTF-8'
+postgresql::globals::locale: 'ru_RU.UTF-8'
+postgresql::globals::manage_package_repo: true
+postgresql::server::ip_mask_allow_all_users: '0.0.0.0/0'
+postgresql::server::listen_addresses: '*'

@@ -1,0 +1,23 @@
+{
+  "CHANGELOG.md": "23daac3d56777b1428825fe83137c076",
+  "Gemfile": "0ef130436c1712e5c2aa9fd04cf4075c",
+  "LICENSE": "d32239bcb673463ab874e80d47fae504",
+  "README.md": "7a2ad098e95afae63187858d9fb5790c",
+  "Rakefile": "1a1eba1e74f5965d4577ed38d9b7f771",
+  "examples/init.pp": "dd1299096fa7b99cc34de5c2b03d8a79",
+  "examples/server.pp": "35a35077a545ca7b3f4609c921f3fa3b",
+  "lib/facter/barman_key.rb": "af0cef2fadb91a0ca4c9f10142899be1",
+  "manifests/archive_command.pp": "1c8daff454b485044955653ca9da7c3c",
+  "manifests/autoconfigure.pp": "4265add9d0b1f9b469920179b26a56d5",
+  "manifests/init.pp": "5c6d23fba3eb193bbc4fa8f1a125f6d4",
+  "manifests/postgres.pp": "a4d23cdded0f6f21c4e8555966503d5e",
+  "manifests/server.pp": "237f94515df5f9e8641dc019afc42993",
+  "manifests/settings.pp": "056df5f751241ed2905cb4e5731e3241",
+  "metadata.json": "a21b77e5798a944462cd38fdda1ca53e",
+  "spec/classes/barman_spec.rb": "42fcb1cae93618384d0af7b10a303709",
+  "spec/defines/server_spec.rb": "cebbf6a8ce4d74cadcd78ccbc94a4d35",
+  "spec/spec_helper.rb": "0e4858a86ccf26cf8e83be125b2973ac",
+  "templates/barman.conf.erb": "df41a7a45074a9f1e04efcba47c3eaee",
+  "templates/logrotate.conf.erb": "ed848e3f623376717eb106857e654ef3",
+  "templates/server.conf.erb": "b5745f490f34d142c3c5fbb20357d03e"
+}
